@@ -76,7 +76,7 @@ fallback_controller_principals:
 
 # The list of dapp canister(s) that will be decentralized if the decentralization swap succeeds. 
 dapp_canisters:
-    #backend canister
+    #User manegement canister
     - ev7jo-jaaaa-aaaah-adthq-cai
     #RAG canister
     - n4ahg-pqaaa-aaaah-advla-cai
@@ -217,7 +217,7 @@ Voting:
         # per year. This rate is reached after `transition_duration` and remains
         # at this level unless changed by an SNS proposal. This field is
         # specified as a percentage. For example: "5%".
-        final: 1%
+        final: 2%
 
         # The voting reward rate falls quadratically from `initial` to `final`
         # over the time period defined by `transition_duration`.
@@ -315,62 +315,62 @@ Distribution:
           memo: 0
           dissolve_delay: 1 month
           vesting_period: 33 months
-        - principal: a5awq-ikxcr-qfasc-dpiph-bepji-7u3ip-bsofc-arcff-jw7rw-fysdc-zqe
+        - principal: wjd6e-qeenk-v43c3-b33m3-24uzt-ldglv-qa5a4-6vpxu-ntt7f-wat4s-mqe
           stake: 625_000 tokens
           memo: 0
           dissolve_delay: 1 month
           vesting_period: 0 years
-        - principal: a5awq-ikxcr-qfasc-dpiph-bepji-7u3ip-bsofc-arcff-jw7rw-fysdc-zqe
+        - principal: wjd6e-qeenk-v43c3-b33m3-24uzt-ldglv-qa5a4-6vpxu-ntt7f-wat4s-mqe
           stake: 625_000 tokens
           memo: 0
           dissolve_delay: 1 month
           vesting_period: 3 months
-        - principal: a5awq-ikxcr-qfasc-dpiph-bepji-7u3ip-bsofc-arcff-jw7rw-fysdc-zqe
+        - principal: wjd6e-qeenk-v43c3-b33m3-24uzt-ldglv-qa5a4-6vpxu-ntt7f-wat4s-mqe
           stake: 625_000 tokens
           memo: 0
           dissolve_delay: 1 month
           vesting_period: 6 months
-        - principal: a5awq-ikxcr-qfasc-dpiph-bepji-7u3ip-bsofc-arcff-jw7rw-fysdc-zqe
+        - principal: wjd6e-qeenk-v43c3-b33m3-24uzt-ldglv-qa5a4-6vpxu-ntt7f-wat4s-mqe
           stake: 625_000 tokens
           memo: 0
           dissolve_delay: 1 month
           vesting_period: 9 months
-        - principal: a5awq-ikxcr-qfasc-dpiph-bepji-7u3ip-bsofc-arcff-jw7rw-fysdc-zqe
+        - principal: wjd6e-qeenk-v43c3-b33m3-24uzt-ldglv-qa5a4-6vpxu-ntt7f-wat4s-mqe
           stake: 625_000 tokens
           memo: 0
           dissolve_delay: 1 month
           vesting_period: 12 months
-        - principal: a5awq-ikxcr-qfasc-dpiph-bepji-7u3ip-bsofc-arcff-jw7rw-fysdc-zqe
+        - principal: wjd6e-qeenk-v43c3-b33m3-24uzt-ldglv-qa5a4-6vpxu-ntt7f-wat4s-mqe
           stake: 625_000 tokens
           memo: 0
           dissolve_delay: 1 month
           vesting_period: 15 months
-        - principal: a5awq-ikxcr-qfasc-dpiph-bepji-7u3ip-bsofc-arcff-jw7rw-fysdc-zqe
+        - principal: wjd6e-qeenk-v43c3-b33m3-24uzt-ldglv-qa5a4-6vpxu-ntt7f-wat4s-mqe
           stake: 625_000 tokens
           memo: 0
           dissolve_delay: 1 month
           vesting_period: 18 months
-        - principal: a5awq-ikxcr-qfasc-dpiph-bepji-7u3ip-bsofc-arcff-jw7rw-fysdc-zqe
+        - principal: wjd6e-qeenk-v43c3-b33m3-24uzt-ldglv-qa5a4-6vpxu-ntt7f-wat4s-mqe
           stake: 625_000 tokens
           memo: 0
           dissolve_delay: 1 month
           vesting_period: 21 months
-        - principal: a5awq-ikxcr-qfasc-dpiph-bepji-7u3ip-bsofc-arcff-jw7rw-fysdc-zqe
+        - principal: wjd6e-qeenk-v43c3-b33m3-24uzt-ldglv-qa5a4-6vpxu-ntt7f-wat4s-mqe
           stake: 625_000 tokens
           memo: 0
           dissolve_delay: 1 month
           vesting_period: 24 months
-        - principal: a5awq-ikxcr-qfasc-dpiph-bepji-7u3ip-bsofc-arcff-jw7rw-fysdc-zqe
+        - principal: wjd6e-qeenk-v43c3-b33m3-24uzt-ldglv-qa5a4-6vpxu-ntt7f-wat4s-mqe
           stake: 625_000 tokens
           memo: 0
           dissolve_delay: 1 month
           vesting_period: 27 months
-        - principal: a5awq-ikxcr-qfasc-dpiph-bepji-7u3ip-bsofc-arcff-jw7rw-fysdc-zqe
+        - principal: wjd6e-qeenk-v43c3-b33m3-24uzt-ldglv-qa5a4-6vpxu-ntt7f-wat4s-mqe
           stake: 625_000 tokens
           memo: 0
           dissolve_delay: 1 month
           vesting_period: 30 months
-        - principal: a5awq-ikxcr-qfasc-dpiph-bepji-7u3ip-bsofc-arcff-jw7rw-fysdc-zqe
+        - principal: wjd6e-qeenk-v43c3-b33m3-24uzt-ldglv-qa5a4-6vpxu-ntt7f-wat4s-mqe
           stake: 625_000 tokens
           memo: 0
           dissolve_delay: 1 month
