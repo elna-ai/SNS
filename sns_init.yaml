@@ -182,7 +182,7 @@ Voting:
             # the maximum age bonus. Once this age is reached, the neuron will
             # continue to age, but no more bonus will be applied. This field
             # is specified as a duration. For example: "2 years".
-            duration: 0.5 years
+            duration: 6 months
             # If a neuron's age is `duration` or older, its voting power will be
             # increased by this age`bonus` amount. 
             # This field is specified as a percentage. For instance, 
