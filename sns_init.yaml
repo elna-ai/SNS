@@ -50,7 +50,7 @@ NnsProposal:
 
         Decentralization Sale
         Min participation -  5 ICP
-        Max participation -  150,000 ICP
+        Max participation -  100,000 ICP
         Max to be raised -  750,000 ICP
         Min to be raised -  120,000 ICP
         Min participants -  100
@@ -59,10 +59,10 @@ NnsProposal:
 
         The DApp
         ELNA consists of a set of canister smart contracts, with the SNS directly controlling the following canisters - 
-        * ev7jo-jaaaa-aaaah-adthq-cai
-        * n4ahg-pqaaa-aaaah-advla-cai
-        * gpdbs-xqaaa-aaaah-adtiq-cai
-        * gichg-2iaaa-aaaah-adtia-cai
+        * ev7jo-jaaaa-aaaah-adthq-cai - User manegement canister
+        * n4ahg-pqaaa-aaaah-advla-cai - RAG canister
+        * gpdbs-xqaaa-aaaah-adtiq-cai - frontend canister
+        * gichg-2iaaa-aaaah-adtia-cai - agent canister
 
 
         Verification
