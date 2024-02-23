@@ -159,7 +159,7 @@ Voting:
             # This parameter sets the maximum dissolve delay a neuron can have.
             # When reached, the maximum dissolve delay bonus will be applied.
             # This field is specified as a duration. For example: "8 years".
-            duration: 1 years
+            duration: 12 months
             # If a neuron's dissolve delay is `duration`, its voting power will
             # be increased by the dissolve delay `bonus` amount. 
             # This field is specified as a percentage. For instance, 
