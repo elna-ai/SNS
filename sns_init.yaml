@@ -504,7 +504,7 @@ Swap:
     #   the CreateServiceNervousSystem proposal is executed. This facilitates
     #   testing in an accelerated manner.
     #
-    start_time: 23:30 UTC  # Start time.
+    start_time: 12:00 UTC  # Start time.
 
     # The duration of the decentralization swap. When `start_time` is calculated
     # during CreateServiceNervousSystem proposal execution, this `duration` will
